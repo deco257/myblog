@@ -7,11 +7,15 @@
   <title>Document</title>
 </head>
 <body>
-  
 
-
-  <app-navigation></app-navigation>
-  <app-publicite></app-publicite>
-  <app-galerie></app-galerie>
+  <nav  class="nav justify-content-center bg-info">
+    <a class="nav-link active text-white" routerLink="/home"><i class="fa fa-home"></i> Home </a>
+    <a class="nav-link  text-white " routerLink="/about">About</a>
+    <a class="nav-link  text-white" routerLink="/publicite">trading</a>
+    <a class="nav-link  text-white" routerLink="/products">Products management </a>
+    <a class="nav-link  text-white "routerLink="/contacter">Contact-us </a>
+    <a class="nav-link  text-white "routerLink="/payment">Payement</a>
+  </nav>
+  <router-outlet></router-outlet>
 </body>
 </html>
